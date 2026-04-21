@@ -8,7 +8,7 @@ A full-featured, enterprise-grade **SaaS platform** for construction businesses 
 
 ## Why I'm Building This
 
-Construction businesses in Canada still manage budgets, inventory, attendance, and invoicing through spreadsheets. I saw this firsthand — data duplication, no real-time cost visibility, no structured approval workflows, no client-facing progress tracking.
+Construction businesses still manage budgets, inventory, attendance, and invoicing through spreadsheets. I saw this firsthand — data duplication, no real-time cost visibility, no structured approval workflows, no client-facing progress tracking.
 
 CPMS is my solution to that problem. V1 is a fully functional single-tenant deployment. The architecture is intentionally designed to support **multi-tenant SaaS in V2 with zero schema migration** — every table includes `CompanyId` from day one. The long-term vision is to commercialize this as a subscription-based platform serving multiple construction businesses.
 
